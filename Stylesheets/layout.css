@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background: #ffe6cf;
+  font-family: "Old Standard TT", serif;
+  color: #000;
+}
+
+/* один экран = макет 1728 px (MacBook Pro 16") */
+.screen {
+  position: relative;
+  width: 1728px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.screen img {
+  position: absolute;
+  display: block;
+}
+.bg {
+  left: 0;
+  top: 0;
+  width: 1728px;
+}
+.dark {
+  background: #810204;
+}
+
+/* линии и рамки шапки */
+.rule {
+  position: absolute;
+  background: #000;
+}
+.vline {
+  position: absolute;
+  background: #000;
+}
+.box {
+  position: absolute;
+  border: 4.29px solid #000;
+  box-sizing: border-box;
+}
+.pill {
+  position: absolute;
+  background: #ffe6cf;
+  border-radius: 9.8px;
+}
+.dark .rule,
+.dark .vline {
+  background: #ffe6cf;
+}
+.dark .box {
+  border-color: #ffe6cf;
+}
+
+/* текст */
+.t {
+  position: absolute;
+  margin: 0;
+  white-space: nowrap;
+  line-height: 1;
+}
+.b {
+  font-weight: 700;
+}
+.i {
+  font-style: italic;
+}
+.ink {
+  color: #17130f;
+}
+.brown {
+  color: #975700;
+}
+.cream {
+  color: #ffe6cf;
+}
